@@ -1,0 +1,44 @@
+
+
+.custom-lines {
+  height: 17rem;
+  overflow: hidden;
+  background: linear-gradient(
+    to bottom,
+    transparent 20%,
+    #e4e4e4 20%,
+    #cac9c9 70%,
+    transparent 70%
+  );
+  background-size: 80% 20px;
+}
+
+
+.inputStyle {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+.inputStyle::-webkit-slider-runnable-track {
+  background: #3838c7;
+  height: 0.1rem;
+}
+
+.inputStyle::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  margin-top: -6px; 
+  background-color: #3838c7;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+
+
+.inputStyle::-webkit-slider-thumb:hover{
+  background-color: #5a5ada;
+}

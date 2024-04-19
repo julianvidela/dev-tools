@@ -1,0 +1,106 @@
+
+.colors-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    
+    
+
+}
+.single-card {
+    width: 170px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: .3s;
+}
+.single-card .content{
+    text-align: center;
+
+    border-radius: 10px;
+    display: none;
+}
+.single-card p {
+    font-family: var(--font-inter);
+    margin: 0;
+    color:#161616;
+    font-weight:500;
+}
+.single-card:hover {
+    transform: scale(1.01 );
+    
+}
+.single-card:hover .content {
+    height:40px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    display: flex;
+    
+    
+   
+
+}
+.single-card button {
+    background-color: transparent;
+    border: 0px;
+    border-radius: 9px;
+    width: 42px;
+    cursor: pointer;
+    
+}
+
+.copy-alert {
+    
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: medium;
+    position: absolute;
+    bottom: 10px;
+    
+}
+.form-color {
+    text-align: center;
+    
+    
+}
+
+.form-color input[type="text"] {
+    font-size: inherit;
+    padding: 12px 25px;
+    outline: 1px solid rgb(212, 210, 208) ;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.form-color form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.error {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: red;
+    width: fit-content;
+    margin: 30px auto 0px;
+    padding: 4px 11px;
+    border-radius: 8px;
+}
+
+
+
+
+.border-warning{
+    border-color: red solid 1px;
+}
