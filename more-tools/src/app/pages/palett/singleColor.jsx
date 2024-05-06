@@ -16,7 +16,7 @@ const SingleColor = ({ hexColor }) => {
     }
 
     return ( 
-        <div className="single-card" style={{ backgroundColor: `#${hexColor}` }}>
+        <div className=" single-card" style={{ backgroundColor: `#${hexColor}` }}>
             <div className="content">
                 <button onClick={ handleCopy(hexColor) } className="flex justify-center gap-2">
                 <p className="text-font">#{ hexColor }</p>

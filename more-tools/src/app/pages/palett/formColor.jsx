@@ -10,7 +10,7 @@ const FormColor = ({ setList }) => {
   const handleGenerator = (e) => {
     e.preventDefault();
     try {
-      let colors = new Values(color).all(22);
+      let colors = new Values(color).all(8);
       setList(colors);
       setError(false);
     } catch (error) {
@@ -20,10 +20,10 @@ const FormColor = ({ setList }) => {
   };
 
   return (
-    <div className="form-color flex flex-col gap-7">
-      <form onSubmit={handleGenerator}>
+    <div className="form-color flex flex-col  p-1">
+      <form onSubmit={handleGenerator} className="gap-1">
         <input
-          className="text-font w-[400px]"
+          className="text-font w-full"
           type="text"
           placeholder="#000000"
           onChange={(e) => setColor(e.target.value)}

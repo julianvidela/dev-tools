@@ -1,16 +1,10 @@
-
-import HomeSection from "./pages/home/home";
+import AiSection from "./pages/ai/ai";
 
 export default function Home() {
   return (
-   
-
-      <HomeSection/>
-   
-
-    
-  
+    <>
+      <AiSection/>
       
-   
+    </>
   );
-} 
+}

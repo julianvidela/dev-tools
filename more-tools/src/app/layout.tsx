@@ -2,7 +2,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import {Inter,Krona_One, Montserrat } from 'next/font/google';
-import Navbar from './components/navbar/navbar';
+import LayoutHome from "./components/layout/main";
 const inter = Inter({
   weight: ['400'],
   style: [ 'normal'],
@@ -52,9 +52,13 @@ export default function RootLayout({
       
       <body className={` ${inter.variable} ${krona.variable} ${montserrat.variable}`}>
 
+        <LayoutHome>
 
         {children}
-        <Navbar/>
+        </LayoutHome>
+
+
+      
 
         
       </body>

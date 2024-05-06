@@ -3,7 +3,7 @@ import LineHeight from "./lineHeight";
 const line = () => {
   return ( 
 
-   <main className="bg-[#ececec] h-screen">
+   <main className="h-screen w-full">
 
       <LineHeight/>
    </main>

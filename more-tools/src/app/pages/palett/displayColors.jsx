@@ -6,7 +6,7 @@ const DisplayColors = ({ list }) => {
     return ( 
         <div
        
-         className="colors-box p-16">
+        className="grid grid-col-1  lg:grid-cols-5 p-1 gap-1 w-full">
             {
                 list.map((color, index) => (
                     

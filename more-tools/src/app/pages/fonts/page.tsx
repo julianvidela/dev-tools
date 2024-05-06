@@ -8,7 +8,7 @@ const fonts = () => {
     <main
     
     
-      className="grid grid-cols-4 gap-2 p-2 bg-dark"
+      className="grid grid-cols-4 gap-2 p-2 bg-dark w-full"
     >
 <motion.div
 initial="hidden"

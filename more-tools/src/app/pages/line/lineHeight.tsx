@@ -45,9 +45,9 @@ function App() {
 
   return (
     <>
-      <main className="flex-1 w-full h-full flex flex-col justify-center items-center overflow-hidden pt-20 gap-6">
+      <main className="flex-1 w-full h-full flex flex-col justify-center items-center overflow-hidden gap-8">
         <Title />
-        <section className="grid grid-cols-2 flex-1 mt-10 gap-x-24 max-w-5xl mx-auto overflow-hidden w-full">
+        <section className="grid grid-cols-2  gap-x-24 max-w-5xl mx-auto overflow-hidden w-full items-center">
           <article className="w-full space-y-8">
             <FontSizeSlider
               fontSize={fontSize}

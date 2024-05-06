@@ -1,6 +1,5 @@
 "use client"
 import Link from "next/link";
-import React, { ReactNode } from "react";
 import FramerMagnetic from "../ui/framer";
 import { motion } from "framer-motion";
 
